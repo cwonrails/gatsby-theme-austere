@@ -8,6 +8,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.js{,on}\" \"**/*.md\"  \"**/*.mdx\"",
+    "lint": "eslint . --fix --ext .js,.md,.mdx",
     "start": "yarn develop",
     "test": "jest"
   },
