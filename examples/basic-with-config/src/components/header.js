@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import {jsx} from 'theme-ui'
+import { jsx } from 'theme-ui'
 
 import Logo from './logo'
 import HeaderLinks from './header-links'
@@ -12,9 +12,8 @@ export default ({ title }) => {
         alignItems: 'center',
         variant: 'styles.header',
         pt: [4, 5, 6],
-        px: [3, 4, 5]
-      }}
-    >
+        px: [3, 4, 5],
+      }}>
       <Logo />
       <HeaderLinks title={title} />
     </header>

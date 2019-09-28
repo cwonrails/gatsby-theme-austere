@@ -1,9 +1,11 @@
 /** @jsx jsx */
-import {jsx} from 'theme-ui'
-import {Link, useStaticQuery, graphql} from 'gatsby'
+import { jsx } from 'theme-ui'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 
 export default ({ title }) => {
-  const { site: { siteMetadata } } = useStaticQuery(graphql`
+  const {
+    site: { siteMetadata },
+  } = useStaticQuery(graphql`
     {
       site {
         siteMetadata {
@@ -15,13 +17,13 @@ export default ({ title }) => {
 
   return (
     <nav>
-      <Link to='/'
+      <Link
+        to="/"
         sx={{
           variant: 'styles.navlink',
           p: 2,
-        }}
-      >
-        {title || siteMetadata.title}  
+        }}>
+        {title || siteMetadata.title}
       </Link>
     </nav>
   )
