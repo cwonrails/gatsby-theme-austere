@@ -5,9 +5,11 @@
   "author": "John Otander",
   "license": "MIT",
   "scripts": {
-    "start": "yarn develop",
+    "build": "gatsby build",
     "develop": "gatsby develop",
-    "build": "gatsby build"
+    "format": "prettier --write \"**/*.js{,on}\" \"**/*.md\"  \"**/*.mdx\"",
+    "start": "yarn develop",
+    "test": "jest"
   },
   "dependencies": {
     "@emotion/core": "^10.0.17",
