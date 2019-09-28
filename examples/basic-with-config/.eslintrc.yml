@@ -1,7 +1,7 @@
 root: true
 
 parserOptions:
-  ecmaVersion: 9
+  ecmaVersion: 10
   sourceType: module
   ecmaFeatures:
     jsx: true
@@ -39,13 +39,12 @@ rules:
 
 settings:
   react:
-    version: 16.9.0
+    version: 16.10.0
 
 overrides:
   - files: '*.mdx'
     extends:
       - plugin:mdx/recommended
-      - plugin:mdx/overrides
     rules:
       import/no-extraneous-dependencies: 0
 
