@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "basic",
+  "name": "basic-with-config",
   "version": "0.0.2",
   "author": "John Otander",
   "license": "MIT",
