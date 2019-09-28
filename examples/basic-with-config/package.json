@@ -35,5 +35,10 @@
     "jest": "^24.9.0",
     "lint-staged": "^9.4.0",
     "prettier": "^1.18.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
