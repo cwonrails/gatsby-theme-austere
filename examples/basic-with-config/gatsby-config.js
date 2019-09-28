@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: 'Austere'
+    title: 'Austere',
   },
   plugins: [
     {
       resolve: `gatsby-theme-austere`,
       options: {
-        basePath: '/writing'
-      }
+        basePath: '/writing',
+      },
     },
-    'gatsby-plugin-theme-ui'
-  ]
+    'gatsby-plugin-theme-ui',
+  ],
 }
